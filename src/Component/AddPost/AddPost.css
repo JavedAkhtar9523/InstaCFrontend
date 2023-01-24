@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form{
+    display: flex;
+    justify-content:center;
+    border: 1px solid #707070;
+    width: 400px;
+    height: 180px;
+    flex-direction: column;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 25px;
+    padding: 20px;
+}
+input{
+    border-radius: 3px;
+    border: 1px solid #707070;
+    height: 22px;
+    margin-top: 10px;
+    padding: 0 3px;
+}
+.file input{
+    width: 100%;
+}
+.input-line2{
+    width: 100%;
+    /* border: 1px solid #707070; */
+    display: flex;
+    justify-content: space-between;
+}
+.input-line2 input{
+    width: 40%;
+}
+
+.descr input{
+    width: 100%;
+}
+.form .button button{
+    margin-top: 5px;
+   margin: 10px auto;
+    width: 25%;
+    height: 20px;
+    border-radius: 4px;
+    border: 1px solid #707070;
+}
